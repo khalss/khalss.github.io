@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation{
+    background-color: darkcyan;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #0d6657;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    margin-right: 30px;
+    object-fit: cover;
+}
+
+.about, .prestasi {
+    text-align: left;
+}
+
+footer {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}

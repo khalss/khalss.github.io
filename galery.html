@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galery.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            </Ul>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Profil</a></li>
+                <li><a href="galery.html">Galery</a></li>
+                <li><a href="conctact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h2>Selamat Datang di Gallery Khal</h2>
+    <p>Di gallery ini menyimpan berbagai dokumnetasi hobi, keseharian, prestasi, dll</p>
+    <div class="full-img" id="fullimgBox">
+        <img src="with my friends.jpg" id="fullimg">
+        <span: onclick="closefullimg()">x</span>
+    </div>
+    <div class="img-galery">
+        <img src="with my friends.jpg" onclick="openfullimg(this.src)">
+        <img src="my hobby.jpg" onclick="openfullimg(this.src)">
+        <img src="hujan.jpg" onclick="openfullimg(this.src)">
+        <img src="lomba danton.jpg" onclick="openfullimg(this.src)">
+        <img src="orang ganteng.jpg" onclick="openfullimg(this.src)">
+        <img src="danton.jpg" onclick="openfullimg(this.src)">
+        <img src="hobby.jpg" onclick="openfullimg(this.src)">
+        <img src="foto khal.jpg" onclick="openfullimg(this.src)">
+    </div>
+    <script>
+        var fullimgBox = document.getElementById("fullimgBox");
+        var fullimg = document.getElementById("fullimg");
+
+        function openfullimg(){
+            fullimgBox.style.display = "flex";
+            fullimg.src = pic;
+        }
+
+        function closefullimg(){
+            fullimgBox.style.display = "none";
+        }
+    </script>
+    <footer>
+        <p>085719185974</p>
+        <p>Jl. Kampung melayu kecil 3, Bukit Duri</p>
+        <p>khalifahisla@gmail.com</p>
+    </footer>
+</body>
+</html>

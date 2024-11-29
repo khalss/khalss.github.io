@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation{
+    background-color: darkcyan;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #0d6657;
+}
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.profil .profil-content{
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.profil-content h3{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+span{
+    color: darkcyan;
+}
+
+.typing-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 200px;
+}
+
+.typing-text span{
+    position: relative;
+}
+
+.profil-img{
+    border-radius: 50%;
+}
+
+.profil-img img{
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.profil-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.social-icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem teal;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem;
+}
+
+.social-icon a:hover{
+    color: #0d6657;
+    transform: scale(1.3) translateY(-5px);
+    background-color: black;
+    box-shadow: #0d6657;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: #10e4c0;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #0d6657;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid darkcyan;
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: #0d6657;
+    color: aqua;
+    box-shadow: 0 0 25px darkcyan;
+}
+
+footer {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
